@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+
+    <h1>To-Do List</h1>
+    <h3>Create a List by following the below given steps</h3>
+
+    <div class="input">
+        <p> * Date : <input class="entryarea" type="date" name="" id="date"> </p>
+        <p> * Task : <input type="text" class="entryarea" name="" id="task" placeholder="What is your task?"></p>
+        <p>discription : </p><textarea name="" id="description" cols="60" rows="5"></textarea>
+        <input type="submit" name="" id="submitButton" onclick="inputDetails()">
+
+    </div>
+    <div class="table">
+        <table>
+            <tr class="headings">
+                <td class="head">Date</td>
+                <td class="head">Task</td>
+                <td class="head">Description</td>
+                <td class="head">Modify</td>
+            </tr>
+            <tr class="details">
+                <td class="data" id="1"> </td>
+                <td class="data" id="2"></td>
+                <td class="data" id="3"></td>
+                <td class="data" id="4"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

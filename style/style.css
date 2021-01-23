@@ -1,0 +1,36 @@
+.table{
+    display: flex;
+    justify-content: center;
+}
+.headings{
+    background-color: lightslategray;
+}
+.head{
+    width:300px;
+    font-weight: bolder;
+
+}
+.entryarea{
+    width: 600px;
+}
+#submitButton{
+    width: 100px;
+    background-color: lightsteelblue;
+    font-weight: bolder;
+}
+#submitButton:hover{
+    background-color: maroon;
+}
+.data{
+
+    background-color: mediumslateblue;
+    font-weight: bold;}
+    #delete{
+        background-color: rgb(84, 82, 97);
+        width: 100px;
+    }
+#delete:hover{
+    background-color: red;
+    width: 120px;
+}
+
